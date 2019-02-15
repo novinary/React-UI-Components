@@ -1,5 +1,6 @@
 import React from 'react';
-import CardContent from './CardContent';
+import CardBannerImage from './CardBannerImage';
+import CardBannerDescription from './CardBannerDescription';
 
 function CardContainer({children}) {
     return (
