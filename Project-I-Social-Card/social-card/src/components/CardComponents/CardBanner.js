@@ -1,12 +1,12 @@
 import React from 'react';
-import CardBannerImage from './CardBannerImage';
+import ReactLogo from './ReactLogo';
 import CardBannerDescription from './CardBannerDescription';
 
 function CardBanner ({children}) {
   return(
     <div className="card-banner-container">
         <div className="card-banner-img">
-            <CardBannerImage />
+            <ReactLogo />
         </div>
         <div className="card-banner-description">
             <CardBannerDescription />
