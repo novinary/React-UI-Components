@@ -1,18 +1,13 @@
 import React from 'react';
-import ReactLogo from './ReactLogo';
-import CardBannerDescription from './CardBannerDescription';
+import './Card.css';
 
-function CardBanner ({children}) {
-  return(
-    <div className="card-banner-container">
-        <div className="card-banner-img">
-            <ReactLogo />
-        </div>
-        <div className="card-banner-description">
-            <CardBannerDescription />
-        </div>
-    </div>
+function CardBanner (props) {
+    return(
+        <React.Fragment>
+            <img className='ContentImg' src="https://reactjs.org/logo-og.png" alt='react logo'/>
+        </React.Fragment>
     )
-  }
-  
-  export default CardBanner;
+}
+
+
+export default CardBanner;

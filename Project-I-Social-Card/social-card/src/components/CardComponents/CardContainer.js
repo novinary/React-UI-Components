@@ -1,12 +1,21 @@
 import React from 'react';
+import './Card.css';
 import CardContent from './CardContent';
+import HeaderContainer from '../HeaderComponents/HeaderContainer';
+import ImageThumbnail from '../HeaderComponents/ImageThumbnail';
 
-const CardContainer = () => {
-  return(
-      <div className="card-container">
-          <CardContent />
-      </div>
-  );
+function CardContainer (){
+    return(
+        <div className='CardContainer'>
+            <div className='left'>
+                <ImageThumbnail />
+            </div>
+            <div className='right'>
+                <HeaderContainer />
+                <CardContent />
+            </div>
+        </div>
+    )
 }
-  
-  export default CardContainer;
+
+export default CardContainer;

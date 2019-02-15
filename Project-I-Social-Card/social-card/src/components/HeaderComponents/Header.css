@@ -11,11 +11,12 @@
 .header-title{
     display: flex;
 }
-.header-title-txt, .tag-txt, .header-date{
+
+.name, .handle, .date{
     margin-right: 5px;
 }
 
-.tag-txt{
+.handle{
     color: gray;
 }
 
