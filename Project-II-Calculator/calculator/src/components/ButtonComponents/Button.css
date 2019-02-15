@@ -6,4 +6,10 @@
     border: 1px solid red;
 }
     
-  
+button{
+    padding: 15px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 20px;
+}
