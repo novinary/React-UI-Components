@@ -1,43 +1,41 @@
 /* All styles for your Card Components live here */
-a{
+a {
   margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
   vertical-align: baseline;
   text-decoration: none;
 }
-.CardContainer{
+.CardContainer {
   display: flex;
   width: 600px;
   margin: 10px auto;
   padding: 10px;
   /* border: 1px solid lightgray; */
-
 }
 
-.ContentImg{
+.ContentImg {
   width: 100%;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom: 1px solid lightgray;
-
 }
 
-.cardContainer{
+.cardContainer {
   border: 1px solid lightgray;
   border-radius: 4px;
   text-decoration: none;
-  
 }
-.cardContent, .cardLink{
+.cardContent,
+.cardLink {
   color: black;
 }
 
 .cardTitle {
   font-weight: bold;
 }
-.left{
+.left {
   margin-right: 10px;
 }
