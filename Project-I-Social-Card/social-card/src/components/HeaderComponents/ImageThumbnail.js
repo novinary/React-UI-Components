@@ -1,11 +1,10 @@
 import React from 'react';
+import './Header.css';
 
-const ImageThumbnail = () => {
+function ImageThumbnail (){
     return(
-        <div className="image-thumbnail">
-           <img src="https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_400x400.jpg" alt="Lambda School Logo" className="img-thumb"/>
-        </div>
-    );
+        <img className = 'logo' src="https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_400x400.jpg" alt='logo'/>
+    )
 }
 
 export default ImageThumbnail; 

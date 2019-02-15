@@ -1,12 +1,12 @@
 import React from 'react';
 import CardContent from './CardContent';
 
-function CardContainer({children}) {
-    return (
+const CardContainer = () => {
+  return(
       <div className="card-container">
-         <CardContent />
+          <CardContent />
       </div>
-    )
-  }
+  );
+}
   
   export default CardContainer;
