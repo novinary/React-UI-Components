@@ -1,5 +1,5 @@
 /* All styles for your header Components live here */
-.header-container, .img-column{
+.header-container{
     display: flex;
     font-size: 1 rem;
     flex-direction: column;
