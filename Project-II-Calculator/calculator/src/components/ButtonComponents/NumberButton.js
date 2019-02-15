@@ -7,7 +7,9 @@ const numberArr = numbers.map(x => <Button item = {x}/>)
 
 function NumberButton(props){
     return(
-        <p>test</p>
+        <div className="numbers">
+            {numberArr}
+        </div>
     );
 }
 
