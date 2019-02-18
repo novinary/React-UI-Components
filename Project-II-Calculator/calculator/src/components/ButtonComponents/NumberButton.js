@@ -1,17 +1,23 @@
 import React from 'react';
-import './Button.css';
 import Button from './Button'
-
-const numbers = [1,2,3,4,5,6,7,8,9]
-const numberArr = numbers.map(x => <Button item = {x}/>)
+import './Button.css';
 
 function NumberButton(props){
     return(
         <div className="numbers">
-            {numberArr}
-            <Button item = '0'/>
-        </div>
+            {props.buttons.filter(item=>item.type==="number" || item.type==='clear').map( button => 
+                    < Button 
+                        item = {button} 
+                        key={button.id} 
+                        handleClick={props.handleClick} 
+                        state = {props.state} 
+                    />
+                    
+                )
+            }
+        </div>       
     );
 }
+
 
 export default NumberButton;

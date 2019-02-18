@@ -2,11 +2,11 @@ import React from 'react';
 import Button from './Button'
 import './Button.css';
 
-function ActionButton(){
+function ActionButton(props){
     return(
-        <div>
-            <Button item = 'x'/>
-        </div>
+        <div className="numbers">
+        {props.buttons.filter(item=>item.type==="action").map( button => < Button item = {button} key={button.id} />)}
+    </div>       
     )
 }
 
