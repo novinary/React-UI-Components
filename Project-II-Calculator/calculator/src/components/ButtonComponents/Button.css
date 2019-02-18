@@ -1,45 +1,42 @@
-.numbers{
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    justify-content: center;
-    justify-content: flex-start;
-    flex-wrap: wrap-reverse;
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap-reverse;
 }
-.single{
-    width: 100px;
-    justify-content: center;
-    align-items: center;
+.single {
+  width: 100px;
+  justify-content: center;
+  align-items: center;
 }
-.triple{
-    width: 300px;
-    justify-content: center;
-    align-items: center;
-
+.triple {
+  width: 300px;
+  justify-content: center;
+  align-items: center;
 }
-.action{
-    width: 100px;
-    background-color: #a0001e;
-    color: white;
-    display: block;
-    font-size: 30px;
-    width: 70%;
-
+.action {
+  width: 100px;
+  background-color: #a0001e;
+  color: white;
+  display: block;
+  font-size: 30px;
+  width: 70%;
 }
-button{
-    display: block;
-    width: 33.33%;
-    height: 100px;
-    font-size: 30px;
+button {
+  display: block;
+  width: 33.33%;
+  height: 100px;
+  font-size: 30px;
 }
-.buttonContainer{
-    display: flex;
-    flex-direction: row;
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
 }
-.clear{
-    padding: 15px 70px;
+.clear {
+  padding: 15px 70px;
 }
-.zero{
-    padding: 15px 70px;
-
+.zero {
+  padding: 15px 70px;
 }
