@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import NumberButton from './components/ButtonComponents/NumberButton';
-import ActionButton from './components/ButtonComponents/ActionButton';
+import Display from './components/DisplayComponents/CalculatorDisplay';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 
 const App = () => {
   return (
-    <div>
+    <div className='App'>
       <h3>Welcome to React Calculator</h3>
-      <NumberButton />
-      <ActionButton />
+      <Display />
+      <ButtonContainer />
     </div>
   );
 };
